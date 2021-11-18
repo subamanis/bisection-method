@@ -126,7 +126,7 @@ fn run_book_examples() {
 
 fn run_for_exercise_27() {
     println!("\nExercise 27 (1  3  0.0001  0)");
-    let root_estimate = bisection_method(|x| 2.0 * x.cos()-x, 1.0, 3.0, 0.0001, 0.0);
+    let root_estimate = bisection_method(|x| 2.0 * x.cos()-x, 1.0, 3.0, 0.00005, 0.0);
     println!("Root estimate: {:.4}\n", root_estimate);
 }
 
